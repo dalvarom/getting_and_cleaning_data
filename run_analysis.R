@@ -58,7 +58,8 @@ mergedData <- rbind(train, test)
 
 # 2.Extracts only the measurements on the mean and standard deviation for each measurement. 
 # If you take a look at the features.txt file, you will find what we need to extract. As we have also 
-# at the begining of each line two blank spaces, we have to add 2 to each number to get the correct position
+# at the begining of each line the subject and the analysis, we have to add 2 to each number 
+# to get the correct position
 #1 tBodyAcc-mean()-X
 #2 tBodyAcc-mean()-Y
 #3 tBodyAcc-mean()-Z
