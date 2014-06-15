@@ -23,7 +23,7 @@
 # 3.Uses descriptive activity names to name the activities in the data set
 # 4.Appropriately labels the data set with descriptive variable names. 
 # 5.Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
-#setwd("D:/XXX/getting and cleaning data/exam)
+#setwd("c:/temp")
 
 # Create a folder to save the zip file on it
 if (!file.exists("./data")) {dir.create("./data")}
@@ -36,7 +36,6 @@ unzip (zipFile)
 
 # As a result, on the root there will be a new directory called UCI HAR Dataset and inside it there will
 # be two folders called test and train with all the files we will use to make the merge
-#setwd("D:/XXXX/getting and cleaning data/exam/UCI HAR Dataset")
 setwd("./UCI HAR Dataset")
 
 # Now we will merge the information of the subject, activity and results. 
