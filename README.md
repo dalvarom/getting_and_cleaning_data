@@ -15,9 +15,7 @@ From this point, what the script needs is two folders train and test containing 
 1. After that I do the merge usind the command
 mergedData <- rbind(train, test) 
 
-2. With the mergind data, the script extracts the information of the mean and std. If you take a look at the features.txt file from the unzip folder, you will find what we need to extract. As we have also at the beginning of each line the subject and the analysis, we have to add 2 to each number to get the correct position.
-
-Now we have a data frame with only the selected columns. 
+2. With the mergind data, the script extracts the information of the mean and std. If you take a look at the features.txt file from the unzip folder, you will find what we need to extract. As we have also at the beginning of each line the subject and the analysis, we have to add 2 to each number to get the correct position. Now we have a data frame with only the selected columns. 
 
 3. Reading the information from the .txt file, I have taken the description of each activity to rename the information on the dataframe. 
 4. We make a loop to set the appropriate labels the data set with descriptive variable names. 
